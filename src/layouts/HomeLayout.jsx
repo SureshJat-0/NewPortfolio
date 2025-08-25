@@ -1,6 +1,8 @@
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import Navbar from "../components/Navbar";
 import { setTheme } from "../utils/themes";
+import LandingPage from "../pages/LandingPage";
+import AboutPage from "../pages/AboutPage";
 
 export default function HomeLayout() {
   const [togTheme, setTogTheme] = useState("light");
@@ -12,8 +14,10 @@ export default function HomeLayout() {
     }
   }, [togTheme]);
   return (
-    <>
+    <div>
       <Navbar setTogTheme={setTogTheme} />
-    </>
+      <LandingPage />
+      <AboutPage />
+    </div>
   );
 }

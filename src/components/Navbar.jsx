@@ -14,7 +14,7 @@ export default function Navbar({ setTogTheme }) {
   };
 
   return (
-    <div className="fixed w-full border-b border-gray-300 flex justify-around items-center">
+    <div className="fixed top-0 left-0 w-full border-b border-gray-300 flex justify-around items-center bg-white">
       <div className="font-bold text-2xl px-4 py-2">Suresh</div>
       <ul className="flex">
         <li className="px-2 mx-2 cursor-pointer">Home</li>
