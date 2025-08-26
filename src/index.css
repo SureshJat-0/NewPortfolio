@@ -7,9 +7,8 @@
   -moz-osx-font-smoothing: grayscale;
 }
 .theme-light {
-  --background: hsl(0, 0%, 50%);
+  --background: hsl(0, 0%, 100%);
 }
 .theme-dark {
-  /* --background: hsl(0, 0%, 4%); */
-  --dark-text: #292929;
+  --background: hsl(0, 0%, 50%);
 }
